@@ -1,40 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanashree Hegde | Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: #f9fafb;
-            color: #222;
-            text-align: center;
-            padding: 80px;
-        }
-        h1 { color: #2563eb; }
-        a {
-            color: #1d4ed8;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover { text-decoration: underline; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vanashree's Portfolio</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+  }
+
+  a {
+    color: red;
+    text-decoration: none;
+  }
+
+  header, section {
+    padding: 60px 20px;
+    border-bottom: 2px solid red;
+  }
+
+  header {
+    text-align: center;
+  }
+
+  h1, h2, h3 {
+    color: red;
+  }
+
+  .container {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .about, .experience, .projects, .skills, .education, .contact {
+    margin-bottom: 40px;
+  }
+
+  .card {
+    background-color: #111;
+    border: 1px solid red;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+  }
+
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+
+  .skill {
+    border: 1px solid red;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: red;
+  }
+
+  button {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #fff;
+    color: red;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid red;
+  }
+</style>
 </head>
 <body>
-    <h1>👋 Hi, I'm Vanashree Hegde</h1>
-    <p>Aspiring Data Scientist | AI Engineer in Progress</p>
 
-    <h3>Featured Project</h3>
-    <p>
-        🔗 <a href="https://colab.research.google.com/drive/YOUR_COLAB_LINK" target="_blank">
-        Superstore Analytics – Sales & Profit Insights</a>
-    </p>
+<header>
+  <div class="container">
+    <h1>Vanashree G. Hegde</h1>
+    <p>Data Science & AI Enthusiast</p>
+  </div>
+</header>
 
-    <h3>Connect with me</h3>
-    <p>
-        💼 <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_ID" target="_blank">LinkedIn</a> |
-        🧠 <a href="https://github.com/YOUR_GITHUB_ID" target="_blank">GitHub</a>
-    </p>
+<section class="about container">
+  <h2>About Me</h2>
+  <p>Hi! I'm Vanashree, a data science graduate passionate about AI, Python, and Machine Learning. I love turning data into insights and building intelligent applications.</p>
+</section>
+
+<section class="experience container">
+  <h2>Experience</h2>
+  <div class="card">
+    <h3>Internship / Project Name</h3>
+    <p>Description of your work, technologies used, and key outcomes.</p>
+  </div>
+</section>
+
+<section class="projects container">
+  <h2>Projects</h2>
+  <div class="card">
+    <h3>Project 1</h3>
+    <p>Brief description and skills/technologies used.</p>
+  </div>
+  <div class="card">
+    <h3>Project 2</h3>
+    <p>Brief description and skills/technologies used.</p>
+  </div>
+</section>
+
+<section class="skills container">
+  <h2>Skills</h2>
+  <div class="skills-list">
+    <div class="skill">Python</div>
+    <div class="skill">Machine Learning</div>
+    <div class="skill">SQL</div>
+    <div class="skill">Flask</div>
+    <div class="skill">Tableau</div>
+  </div>
+</section>
+
+<section class="education container">
+  <h2>Education</h2>
+  <div class="card">
+    <h3>B.Sc Data Science</h3>
+    <p>University Name, Year</p>
+  </div>
+</section>
+
+<section class="contact container">
+  <h2>Contact Me</h2>
+  <p>Email: <a href="mailto:vanashree@example.com">vanashree@example.com</a></p>
+  <p>LinkedIn: <a href="#">linkedin.com/in/vanashree</a></p>
+  <button>Download Resume</button>
+</section>
+
+<footer>
+  &copy; 2025 Vanashree G. Hegde
+</footer>
+
 </body>
 </html>
